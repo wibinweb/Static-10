@@ -1,0 +1,12 @@
+$(function(){
+	$(".header-burger").click(function(e){
+		e.preventDefault();
+		$(".burger-close").toggleClass("open");
+		$(".burger-open").toggleClass("open");
+		$(".overlay").toggleClass("open");
+		$(".header-bottom").toggleClass("open");
+		$("main").toggleClass("open");
+		$("section").toggleClass("open");
+		$("footer").toggleClass("open");
+	});
+});
